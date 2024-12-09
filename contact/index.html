@@ -10,5 +10,23 @@
     <button> <a href="https://www.kamdenperkins.com/publications"> Publications </a> </button>
     <button> <a href="https://www.kamdenperkins.com/contact"> Contact </a> </button>
       <h2>My contact information can be found here</h2>
+      <h2>Schedule with me</h2>
+        <!-- Google Calendar Appointment Scheduling begin -->
+        <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+        <script>
+          (function() {
+            var target = document.currentScript;
+            window.addEventListener('load', function() {
+              calendar.schedulingButton.load({
+              url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ14qIizSGfFdwuO7KwMAd-N6q9kLdEP6UWdWGT1hA7IJtyazVEzjORpgaOyKPqMt7C2EZylwPd_?gv=true',
+              color: '#039BE5',
+              label: 'Book an appointment',
+              target,
+               });
+              });
+          })();
+        </script>
+        <!-- end Google Calendar Appointment Scheduling -->
   </body>
 </html>
