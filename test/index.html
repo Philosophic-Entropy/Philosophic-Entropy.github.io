@@ -1,42 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <!-- Head -->
-  <head>
+<!-- Head -->
+
+<head>
 
     <title>kamdenperkins.com - Test - HTML &amp; CSS</title>
 
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="Author" content="" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->   
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <!-- Body -->
-  <!-- CSS Background Color -->
-  <body style="background-color:rgb(226, 131, 226);">
+<!-- Body -->
 
-    <h1>Welcome to kamdenperkins.com!</h1>
+<body>
 
-        <!-- CSS Bigger Heading -->
-        <h2 style="font-size:60px;">Another Heading</h2>
+    <div class="header">
+        <h1>Welcome to kamdenperkins.com!</h1>
+    </div>
+
+    <div class="topnav">
+        <div class="topnav-dropdown">
+            <button onclick="location.href='https://www.kamdenperkins.com/about_me'">Home</button>
+            <div class="topnav-dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="topnav-dropdown">
+            <button onclick="location.href='https://www.kamdenperkins.com/about_me'">About Me</button>
+            <div class="topnav-dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="topnav-dropdown">
+            <button onclick="location.href='https://www.kamdenperkins.com/eigenspace'">Eigenspace</button>
+            <div class="topnav-dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="topnav-dropdown">
+            <button onclick="location.href='https://www.kamdenperkins.com/portfolio'">Portfolio</button>
+            <div class="topnav-dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="topnav-dropdown">
+            <button onclick="location.href='https://www.kamdenperkins.com/research'">Research</button>
+            <div class="topnav-dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="topnav-dropdown">
+            <button onclick="location.href='https://www.kamdenperkins.com/education'">Education</button>
+            <div class="topnav-dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="topnav-dropdown">
+            <button onclick="location.href='https://www.kamdenperkins.com/material'">Material</button>
+            <div class="topnav-dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="topnav-dropdown">
+            <button onclick="location.href='https://www.kamdenperkins.com/contact'">Contact</button>
+            <div class="topnav-dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="column side">
+            <h2>Features</h2>
+            <p>Gadgets and Gizmos</p>
+        </div>
+
+        <div class="column middle">
+            <h1>Welcome to kamdenperkins.com!</h1>
+
+            <!-- CSS Bigger Heading -->
+            <h2 style="font-size:60px;">Another Heading</h2>
 
             <!-- CSS Text Color -->
             <h3 style="color:blue;">Testing Line Breaks</h3>
-                <!-- break command test -->
-                <p> To think that <br> something so simple <br> could be so invigorating <br> is such an interesting <br> concept, do you agree?</p>
-                <!-- CSS Font Type -->
-                <p style="font-family:verdana;"> Font looks cool </p>
-                <!-- CSS Font Size -->
-                <p style="font-size:160%;">This is a paragraph.</p>
-                <!-- CSS text align -->
-                <p style="text-align:center;">Centered paragraph.</p>
+            <!-- break command test -->
+            <p> To think that <br> something so simple <br> could be so invigorating <br> is such an interesting <br>
+                concept, do you agree?</p>
+            <!-- CSS Font Type -->
+            <p style="font-family:verdana;"> Font looks cool </p>
+            <!-- CSS Font Size -->
+            <p style="font-size:160%;">This is a paragraph.</p>
+            <!-- CSS text align -->
+            <p style="text-align:center;">Centered paragraph.</p>
 
             <h3>Testing "pre" command</h3>
-                <pre>
+            <pre>
                     Imagine what
 
                     This will 
@@ -45,52 +133,65 @@
 
             <!-- Testing HTML Text Formatting -->
             <h3>The following will be a series of test</h3>
-                <!-- Bold Text -->
-                 <p> <b>This should be bold</b> </p>
-                <!-- Strong Text -->
-                 <p> <strong>This should be defined with strong importance</strong> </p>
-                <!-- Italisized Text -->
-                 <p> <i>This is gonna be in italics</i> </p>
-                <!-- Emphasized Text -->
-                 <p> <em>This text is gonna have a emphasis of sorts</em> </p>
-                <!-- Small Text -->
-                 <p> <small>This is some smaller text.</small> </p>
-                <!-- Marked Text -->
-                 <p>Do not forget to buy <mark>milk</mark> today.</p>
-                <!-- Striked Text -->
-                 <p>My favorite color is <del>blue</del> red.</p>
-                <!-- Inserted Text -->
-                 <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
-                <!-- Subscrpit Text -->
-                 <p>This is <sub>subscripted</sub> text.</p>
-                <!-- Superscript Text -->
-                 <p>This is <sup>superscripted</sup> text.</p>
-            
-        <!-- How to link an Audio File-->
+            <!-- Bold Text -->
+            <p> <b>This should be bold</b> </p>
+            <!-- Strong Text -->
+            <p> <strong>This should be defined with strong importance</strong> </p>
+            <!-- Italisized Text -->
+            <p> <i>This is gonna be in italics</i> </p>
+            <!-- Emphasized Text -->
+            <p> <em>This text is gonna have a emphasis of sorts</em> </p>
+            <!-- Small Text -->
+            <p> <small>This is some smaller text.</small> </p>
+            <!-- Marked Text -->
+            <p>Do not forget to buy <mark>milk</mark> today.</p>
+            <!-- Striked Text -->
+            <p>My favorite color is <del>blue</del> red.</p>
+            <!-- Inserted Text -->
+            <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+            <!-- Subscrpit Text -->
+            <p>This is <sub>subscripted</sub> text.</p>
+            <!-- Superscript Text -->
+            <p>This is <sup>superscripted</sup> text.</p>
 
-                <!-- Via a link -->
+            <!-- How to link an Audio File-->
+
+            <!-- Via a link -->
             <p>
                 <a href="media/audio files/Doh sound.m4a" title="Homer Doh noise"> D'oh! Noise </a>
             </p>
 
-                <!-- Via Embedding-->        
+            <!-- Via Embedding-->
             <!-- <object data="media/audio files/Doh sound.m4a" type="audio/m4a"></object> -->
             <embed src="media/audio files/Doh sound.m4a" width="100%" height="100%" type="audio/m4a">
 
             <hr>
 
-        <!-- How to link a Video File-->
-            
-                <!-- Via a link -->
+            <!-- How to link a Video File-->
+
+            <!-- Via a link -->
             <p>
-                <a href="media\video files\candlelightvideo.MP4" title="Candle Light Concert, Vivaldi"> Vivaldi Concert </a>
+                <a href="media\video files\candlelightvideo.MP4" title="Candle Light Concert, Vivaldi"> Vivaldi Concert
+                </a>
             </p>
 
-                <!-- Via Embedding-->
+            <!-- Via Embedding-->
             <!-- Commented out due to not being able to control the play and pause of the video
                 <embed src="media/video files/candlelightvideo.MP4" width="100%" height="100%" type="video/MP4"> 
                 -->
+        </div>
 
-  </body>
+        <div class="column side">
+            <h2>Recent Post</h2>
+            <p>Place some Post here</p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+
+</body>
 
 </html>
