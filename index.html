@@ -19,20 +19,28 @@
 <!-- Body -->
 
 <body>
-    <!-- <script src="/script.js"></script> -->
+    
     <div class="header">
         <h1>Welcome to kamdenperkins.com!</h1>
     </div>
 
     <div class="topnav">
-        <button> <a href="https://www.kamdenperkins.com" title="Home page"> Home </a> </button>
-        <button> <a href="https://www.kamdenperkins.com/about_me" title="About me page"> About Me </a> </button>
-        <button> <a href="https://www.kamdenperkins.com/eigenspace" title="Eignespace page"> Eigenspace </a> </button>
-        <button> <a href="https://www.kamdenperkins.com/portfolio" title="Portfolio page"> Portfolio </a> </button>
-        <button> <a href="https://www.kamdenperkins.com/research" title="Research page"> Research </a> </button>
-        <button> <a href="https://www.kamdenperkins.com/education" title="Education page"> Education </a> </button>
-        <button> <a href="https://www.kamdenperkins.com/material" title="Material page"> Material </a> </button>
-        <button> <a href="https://www.kamdenperkins.com/contact" title="Contact page"> Contact </a> </button>
+        <div class="topnav-dropdown">
+            <button>Home</button>
+            <div class="topnav-dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <button onclick="location.href='https://www.kamdenperkins.com/about_me'">About Me</button>
+        <button onclick="location.href='https://www.kamdenperkins.com/eigenspace'">Eigenspace</button>
+        <button onclick="location.href='https://www.kamdenperkins.com/portfolio'">Portfolio</button>
+        <button onclick="location.href='https://www.kamdenperkins.com/research'">Research</button>
+        <button onclick="location.href='https://www.kamdenperkins.com/education'">Education</button>
+        <button onclick="location.href='https://www.kamdenperkins.com/material'">Material</button>
+        <button onclick="location.href='https://www.kamdenperkins.com/contact'">Contact</button>
     </div>
 
     <div class="row">
