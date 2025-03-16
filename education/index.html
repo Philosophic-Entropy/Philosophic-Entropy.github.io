@@ -11,24 +11,99 @@
     <meta name="description" content="" />
     <meta name="Author" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
 
   </head>
   
   <!-- Body -->
-  <body style="background-color:rgb(148, 194, 34);">
+  <body>
 
-    <h1>Welcome to kamdenperkins.com!</h1>
+    <div class="header">
+      <h1>Welcome to kamdenperkins.com!</h1>
+  </div>
 
-    <button> <a href="https://www.kamdenperkins.com" title="Home page"> Home </a> </button>
-    <button> <a href="https://www.kamdenperkins.com/about_me" title="About me page"> About Me </a> </button>
-    <button> <a href="https://www.kamdenperkins.com/eigenspace" title="Eignespace page"> Eigenspace </a> </button>
-    <button> <a href="https://www.kamdenperkins.com/portfolio" title="Portfolio page"> Portfolio </a> </button>
-    <button> <a href="https://www.kamdenperkins.com/research" title="Research page"> Research </a> </button>
-    <button> <a href="https://www.kamdenperkins.com/education" title="Education page"> Education </a> </button>
-    <button> <a href="https://www.kamdenperkins.com/material" title="Material page"> Material </a> </button>
-    <button> <a href="https://www.kamdenperkins.com/contact" title="Contact page"> Contact </a> </button>
+  <div class="topnav">
+      <div class="topnav-dropdown">
+          <button onclick="location.href='https://www.kamdenperkins.com/about_me'">Home</button>
+          <div class="topnav-dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+      </div>
+
+      <div class="topnav-dropdown">
+          <button onclick="location.href='https://www.kamdenperkins.com/about_me'">About Me</button>
+          <div class="topnav-dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+      </div>
+
+      <div class="topnav-dropdown">
+          <button onclick="location.href='https://www.kamdenperkins.com/eigenspace'">Eigenspace</button>
+          <div class="topnav-dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+      </div>
+
+      <div class="topnav-dropdown">
+          <button onclick="location.href='https://www.kamdenperkins.com/portfolio'">Portfolio</button>
+          <div class="topnav-dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+      </div>
+
+      <div class="topnav-dropdown">
+          <button onclick="location.href='https://www.kamdenperkins.com/research'">Research</button>
+          <div class="topnav-dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+      </div>
+
+      <div class="topnav-dropdown">
+          <button onclick="location.href='https://www.kamdenperkins.com/education'">Education</button>
+          <div class="topnav-dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+      </div>
+
+      <div class="topnav-dropdown">
+          <button onclick="location.href='https://www.kamdenperkins.com/material'">Material</button>
+          <div class="topnav-dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+      </div>
+
+      <div class="topnav-dropdown">
+          <button onclick="location.href='https://www.kamdenperkins.com/contact'">Contact</button>
+          <div class="topnav-dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+      </div>
       
+  </div>
+
+    <div class="row">
+      <div class="column side">
+          <h2>Features</h2>
+          <p>Gadgets and Gizmos</p>
+      </div>
+
+      <div class="column middle">
       <h2>This is where my personally fabricated educational resources will be featured</h2>
         <a href="https://coes.latech.edu/undergraduate-programs/chemical-engineering/">
           <img src="images/Lab_photo.jpg" alt="Chemical Engineering Junior Lab Photo" width="600" height="300" />
@@ -89,5 +164,18 @@
 
           <h4>Tools for Education, creativity, and Hands-on Learning (TECH) Donation Inititive</h4>
             <!--Add link-->
+          </div>
+
+            <div class="column side">
+              <h2>Recent Post</h2>
+              <p>Place some Post here</p>
+          </div>
+  
+      </div>
+  
+      <div class="footer">
+          <h2>Footer</h2>
+      </div>
+  
   </body>
 </html>
