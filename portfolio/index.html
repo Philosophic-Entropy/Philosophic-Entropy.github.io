@@ -1,115 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <!-- Head -->
-  <head>
+<!-- Head -->
 
-    <title>kamdenperkins.com - Projects - HTML &amp; CSS</title>
+<head>
 
-    <meta charset="UTF-8"/>
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="Author" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <link rel="stylesheet" href="style.css">
+  <title>kamdenperkins.com - Projects - HTML &amp; CSS</title>
 
-    <!-- For the YoutTube video embedding -->
-    <style>
-      .video-container {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 100vh;
-      }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="Author" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
 
-  </head>
+  <!-- For the YoutTube video embedding -->
+  <style>
+    .video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  </style>
 
-  <!-- Body -->
-  <body style="background-color:rgba(50, 37, 233, 0.712);">
+</head>
 
+<!-- Body -->
+
+<body>
+
+  <div class="header">
     <h1>Welcome to kamdenperkins.com!</h1>
+  </div>
 
-    <button> <a href="https://www.kamdenperkins.com" title="Home page"> Home </a> </button>
-    <button> <a href="https://www.kamdenperkins.com/about_me" title="About me page"> About Me </a> </button>
-    <button> <a href="https://www.kamdenperkins.com/eigenspace" title="Eignespace page"> Eigenspace </a> </button>
-    <button> <a href="https://www.kamdenperkins.com/portfolio" title="Portfolio page"> Portfolio </a> </button>
-    <button> <a href="https://www.kamdenperkins.com/research" title="Research page"> Research </a> </button>
-    <button> <a href="https://www.kamdenperkins.com/education" title="Education page"> Education </a> </button>
-    <button> <a href="https://www.kamdenperkins.com/material" title="Material page"> Material </a> </button>
-    <button> <a href="https://www.kamdenperkins.com/contact" title="Contact page"> Contact </a> </button>
-    
+  <div class="topnav">
+    <div class="topnav-dropdown">
+      <button onclick="location.href='https://www.kamdenperkins.com/about_me'">Home</button>
+      <div class="topnav-dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+
+    <div class="topnav-dropdown">
+      <button onclick="location.href='https://www.kamdenperkins.com/about_me'">About Me</button>
+      <div class="topnav-dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+
+    <div class="topnav-dropdown">
+      <button onclick="location.href='https://www.kamdenperkins.com/eigenspace'">Eigenspace</button>
+      <div class="topnav-dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+
+    <div class="topnav-dropdown">
+      <button onclick="location.href='https://www.kamdenperkins.com/portfolio'">Portfolio</button>
+      <div class="topnav-dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+
+    <div class="topnav-dropdown">
+      <button onclick="location.href='https://www.kamdenperkins.com/research'">Research</button>
+      <div class="topnav-dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+
+    <div class="topnav-dropdown">
+      <button onclick="location.href='https://www.kamdenperkins.com/education'">Education</button>
+      <div class="topnav-dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+
+    <div class="topnav-dropdown">
+      <button onclick="location.href='https://www.kamdenperkins.com/material'">Material</button>
+      <div class="topnav-dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+
+    <div class="topnav-dropdown">
+      <button onclick="location.href='https://www.kamdenperkins.com/contact'">Contact</button>
+      <div class="topnav-dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="column side">
+      <h2>Features</h2>
+      <p>Gadgets and Gizmos</p>
+    </div>
+
+    <div class="column middle">
       <h2> This is where my projects will be displayed</h2>
-        <h3>Self-Interest Projects</h3>
-          <ul>
-            <li>Website</li>
-            <li>An App</li>
-            <li>Geigercounter</li>
-            <li>Cathode Ray</li>
-            <li>Coffee Heat Exchanger</li>
-              <ul>
-                <li>Uses heat transfer knowledge</li>
-              </ul>
-            <li>Custom Kurig</li>
-              <ul>
-                <li>3D Print shell</li>
-                <li>Uses mass transfer knowledge</li>
-              </ul>
-            <li>Carbonator</li>
-              <ul>  
-                <li>Absorption of CO2 gas by a liquid with a machine</li>
-                <li>Uses separations and mass transfer knowledge</li>
-              </ul>
-            <li>Still</li>
-            <li>Boat Welding</li>
-            <li>Carbon Dating</li>
-          </ul>
-          
-        <h3>Employment Projects</h3>
-          <h4>BWXT</h4>
-            <ul>
-              <li>HFIR Mandrel Stand</li>
-                <p>Attached is a picture of a project I worked on over the summer. 
-                  The operators wanted a stand to place mandrels on, which go inside 
-                  of the reactors to maneuver them about the shop in a safe manner. 
-                  I worked with them to come up with a design, which was extremely 
-                  cost effective (you know how I feel about government spending and 
-                  excess waste). In my design plans, which I modeled in a CAD 
-                  software and simulated the weight that would be present to ensure 
-                  the structure could support the mandrels, I even accounted for the 
-                  size of every cut that would be made. I was told that my calculations 
-                  were exact and there was no space material left. It is made out of 
-                  2"x4" tubing and Delren plastic.
-                </p>
-              <li>HFIR Cast</li>
-            </ul>
-          <h4>Independent</h4>
-            <ul>
-              <li>Patent Prototyping</li>
-            </ul>
-          
+      <h3>Self-Interest Projects</h3>
+      <ul>
+        <li>Website</li>
+        <li>An App</li>
+        <li>Geigercounter</li>
+        <li>Cathode Ray</li>
+        <li>Coffee Heat Exchanger</li>
+        <ul>
+          <li>Uses heat transfer knowledge</li>
+        </ul>
+        <li>Custom Kurig</li>
+        <ul>
+          <li>3D Print shell</li>
+          <li>Uses mass transfer knowledge</li>
+        </ul>
+        <li>Carbonator</li>
+        <ul>
+          <li>Absorption of CO2 gas by a liquid with a machine</li>
+          <li>Uses separations and mass transfer knowledge</li>
+        </ul>
+        <li>Still</li>
+        <li>Boat Welding</li>
+        <li>Carbon Dating</li>
+      </ul>
 
-        <h3>Academic Projects</h3>
-          <ul>
-            <li>Hydrogen Car</li>
-            <li>ATLAS</li>
-              <!--Insert Pics-->
-              <div class="video-container">
-                <iframe width="560" height="315" 
-                  src="https://www.youtube.com/embed/DnQTmI4S_DE" 
-                  title="YouTube video player" 
-                  frameborder="1" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-                </iframe>
-              </div>
-          </ul>
+      <h3>Employment Projects</h3>
+      <h4>BWXT</h4>
+      <ul>
+        <li>HFIR Mandrel Stand</li>
+        <p>Attached is a picture of a project I worked on over the summer.
+          The operators wanted a stand to place mandrels on, which go inside
+          of the reactors to maneuver them about the shop in a safe manner.
+          I worked with them to come up with a design, which was extremely
+          cost effective (you know how I feel about government spending and
+          excess waste). In my design plans, which I modeled in a CAD
+          software and simulated the weight that would be present to ensure
+          the structure could support the mandrels, I even accounted for the
+          size of every cut that would be made. I was told that my calculations
+          were exact and there was no space material left. It is made out of
+          2"x4" tubing and Delren plastic.
+        </p>
+        <li>HFIR Cast</li>
+      </ul>
+      <h4>Independent</h4>
+      <ul>
+        <li>Patent Prototyping</li>
+      </ul>
 
-        <h3>Possible Projects</h3>
-          <ul>
-            <li>"Neon" LA Tech logo sign</li>
-          </ul>
 
-  </body>
+      <h3>Academic Projects</h3>
+      <ul>
+        <li>Hydrogen Car</li>
+        <li>ATLAS</li>
+        <!--Insert Pics-->
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/DnQTmI4S_DE" title="YouTube video player"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </ul>
+
+      <h3>Possible Projects</h3>
+      <ul>
+        <li>"Neon" LA Tech logo sign</li>
+      </ul>
+    </div>
+
+    <div class="column side">
+      <h2>Recent Post</h2>
+      <p>Place some Post here</p>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <h2>Footer</h2>
+  </div>
+
+</body>
 
 </html>
