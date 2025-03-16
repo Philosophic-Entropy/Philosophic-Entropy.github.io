@@ -1,68 +1,109 @@
 * {
     box-sizing: border-box;
-  }
-
-  body {
     margin: 0;
+    padding: 0;
   }
-
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
   .header {
     background-color: #F1F1F1;
     text-align: center;
     padding: 20px;
   }
-
-  /* The navbar container */
+  
+  /* Navbar container */
   .topnav {
-    overflow: hidden;
-    background-color: #333;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
   }
-
-  /* Navbar links */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  
+  /* Navbar buttons */
+  .topnav button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
   }
-
-  /* Links - change color on hover */
-  .topnav a:hover {
-    background-color: #ddd;
+  
+  /* Change button color on hover */
+  .topnav button:hover {
+    background-color: #444;
+  }
+  
+  /* Dropdown container */
+  .topnav-dropdown {
+    position: relative;
+    /* Ensure the dropdown is positioned relative to the button */
+    display: inline-block;
+  }
+  
+  /* Dropdown content */
+  .topnav-dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    /* Appear directly below the button */
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  /* Dropdown links */
+  .topnav-dropdown-content a {
     color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
   }
-
+  
+  /* Change color of dropdown links on hover */
+  .topnav-dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu when hovering over the button */
+  .topnav-dropdown:hover .topnav-dropdown-content {
+    display: block;
+  }
+  
   .column {
     float: left;
     padding: 20px;
   }
-
-  /* Left and right column */
+  
   .column.side {
     width: 20%;
   }
-
-  /* Middle column */
+  
   .column.middle {
     width: 60%;
   }
-
-  /* Clear floats after the columns */
+  
   .row::after {
     content: "";
     display: table;
     clear: both;
   }
-
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 600px) {
-    .column.side, .column.middle {
-    width: 100%;
+  
+  @media screen and (max-width: 600px) {
+  
+    .column.side,
+    .column.middle {
+      width: 100%;
     }
   }
-
+  
   .footer {
     background-color: #F1F1F1;
     text-align: center;

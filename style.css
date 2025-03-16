@@ -40,7 +40,8 @@ body {
 
 /* Dropdown container */
 .topnav-dropdown {
-  position: relative; /* Ensure the dropdown is positioned relative to the button */
+  position: relative;
+  /* Ensure the dropdown is positioned relative to the button */
   display: inline-block;
 }
 
@@ -48,11 +49,12 @@ body {
 .topnav-dropdown-content {
   display: none;
   position: absolute;
-  top: 100%; /* Appear directly below the button */
+  top: 100%;
+  /* Appear directly below the button */
   left: 0;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1000;
 }
 
@@ -95,8 +97,10 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-      width: 100%;
+
+  .column.side,
+  .column.middle {
+    width: 100%;
   }
 }
 
