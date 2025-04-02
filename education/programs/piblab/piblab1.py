@@ -38,7 +38,7 @@ def estimate_absorption(n: int):
     return energies, gap, wavelength_nm
 
 # Example: Benzene (6-membered ring)
-n_atoms = 6
+n_atoms = 18
 eigenvalues, gap, absorbance_nm = estimate_absorption(n_atoms)
 
 print(f"Molecular Orbital Energies (eV): {np.round(eigenvalues, 2)}")
